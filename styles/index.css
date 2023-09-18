@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #080404;
 }
 
 .heading-1 {
@@ -15,9 +16,56 @@ body {
     font-size:50px;
     font-family: 'Cedarville Cursive', cursive;
     font-weight: bold;
+    text-align: center;
 }
 
 .accent {
     background-color: #0597F2;
     border-radius: 100px;
 }
+
+.accent2 {
+    color: #f26005;
+}
+
+.container {
+    padding: 50px 50px;
+    min-height: 100vh;
+    /* height: 100vh; */
+    max-width: 100%;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+  header h1 a {
+    text-decoration: none;
+    color: #0597F2; 
+    font-size: 45px;
+    
+  }
+
+  header h1 a span {
+    color: #f26005;
+  }
+
+header nav {
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;
+    border-radius: 100px;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    margin: 0 10px; 
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white; 
+  }

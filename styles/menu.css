@@ -1,0 +1,28 @@
+/* body {
+    background-color: #080404;
+} */
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    color: white;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.menu-item h1 {
+    padding-left: 125px;
+}
