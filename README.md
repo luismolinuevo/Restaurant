@@ -1,2 +1,2 @@
 # Restaurant
-A basic website for a restaurant using html, and css
+A basic website for a restaurant using HTML and CSS.
